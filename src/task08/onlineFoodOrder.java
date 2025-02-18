@@ -57,8 +57,9 @@ public class onlineFoodOrder {
                 System.out.println("Total Bill: $" + restaurant.calculateTotalBill(foodPrice));
                 System.out.println("Estimated Delivery Time: " + restaurant.estimateDeliveryTime() + " mins");
 
-                sc.close(); // Close scanner
+                sc.close();
 
         }
     }
+
 
